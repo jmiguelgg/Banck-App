@@ -20,7 +20,7 @@ const Home = (): JSX.Element => {
     <CardBanck banck={item} />
   );
 
-  const renderEmptyList = (): JSX.Element => <Text>No results</Text>;
+  const renderEmptyList = (): JSX.Element => <Text>No hay resultados</Text>;
 
   useEffect(() => {
     loadBanckList().catch(console.error);
@@ -28,7 +28,7 @@ const Home = (): JSX.Element => {
 
   return (
     <>
-      <Text style={styles.header}>List of available banks</Text>
+      <Text style={styles.header}>Lista de bancos</Text>
       {!bancks && refreshing ? (
         <ActivityIndicator size="large" style={styles.loaderIndicator} />
       ) : (

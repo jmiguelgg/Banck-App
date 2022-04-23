@@ -29,7 +29,7 @@ const CardBanck = ({banck}: CardBanckProps): JSX.Element => {
       <View style={styles.infoContainer}>
         <Text style={styles.headerName}>{banck.bankName}</Text>
         <Text style={styles.text}>{banck.description}</Text>
-        <Text style={styles.text}>Ege: {banck.age} years</Text>
+        <Text style={styles.text}>Edad: {banck.age} años</Text>
       </View>
     </View>
   );

@@ -1,21 +1,30 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  cardContainer: {
+    backgroundColor: '#C0FAFF',
+    borderRadius: 5,
+    marginBottom: 5,
+    flexDirection: 'row',
+    overflow: 'hidden',
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
+  banckImage: {
+    width: 80,
+    height: 80,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
+  infoContainer: {
+    paddingVertical: 5,
+    paddingHorizontal: 10,
   },
-  highlight: {
-    fontWeight: '700',
+  headerName: {
+    fontSize: 15,
+    fontWeight: '500',
+    marginBottom: 5,
+  },
+  text: {
+    fontSize: 13,
+    color: '#363636',
+    marginBottom: 2,
   },
 });
 

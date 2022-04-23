@@ -4,7 +4,7 @@ import Home from './screens/Home';
 
 const App = (): ReactElement => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <Home />
     </SafeAreaView>
   );
